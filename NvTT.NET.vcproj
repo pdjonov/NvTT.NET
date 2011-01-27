@@ -114,6 +114,7 @@
 				Name="VCCLCompilerTool"
 				PreprocessorDefinitions="WIN32;NDEBUG"
 				RuntimeLibrary="2"
+				GenerateXMLDocumentationFiles="true"
 				WarningLevel="3"
 				DebugInformationFormat="3"
 			/>

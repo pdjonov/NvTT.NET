@@ -1,5 +1,7 @@
 Debug/
 Release/
-NvTT.NET.ncb
-NvTT.NET.suo
+*.ncb
+*.suo
+*.sdf
+*.opensdf
 *.user
