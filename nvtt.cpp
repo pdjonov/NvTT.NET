@@ -1327,7 +1327,7 @@ struct OutputHandler : public nvtt::OutputHandler
 	void CheckException()
 	{
 		if( bad_ex )
-			throw bad_ex;
+			throw (Exception^)bad_ex;
 	}
 
 private:
@@ -1379,7 +1379,7 @@ struct UnsafeOutputHandler : public nvtt::OutputHandler
 	void CheckException()
 	{
 		if( bad_ex )
-			throw bad_ex;
+			throw (Exception^)bad_ex;
 	}
 
 private:
@@ -1432,7 +1432,7 @@ struct StreamOutputHandler : public nvtt::OutputHandler
 	void CheckException()
 	{
 		if( bad_ex )
-			throw bad_ex;
+			throw (Exception^)bad_ex;
 	}
 
 private:
